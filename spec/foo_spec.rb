@@ -6,4 +6,8 @@ describe "Foo" do
   it "should meh" do
     1.should == 1
   end
+
+  it "should fail" do
+    2.should == 1
+  end
 end
